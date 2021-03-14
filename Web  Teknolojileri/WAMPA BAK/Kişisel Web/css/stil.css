@@ -1,0 +1,56 @@
+#menu{background-color:#A5E0F3; text-align: center; border-radius:0 0 10px 10px ; }
+
+#anasayfa{border-right: thin solid;border-left: thin solid}
+#sehrim{border-right: thin solid}
+#mirasimiz{border-right: thin solid}
+#cv{border-right: thin solid}
+#iletisim{border-right: thin solid;}
+
+#menu ul  {margin: 0 0 0 0px}
+#menu ul li a:hover{color:#FFFFFF; background-color:#29529A}
+
+#anasayfatop{font-family: tahoma; }
+
+.baslik_hiza{text-align: center; margin:0 0 15px 0;}
+.anasayfa_linkler{margin:0 0 0 0px}
+.anasayfa_linkler:hover{}
+
+#gorsellerradius{border-radius: 20px}
+#gorsellerhizalama{margin:30px 0 0 0px;border-radius: 20px}
+
+.mirasimizbaslikhiza{text-align: center; margin:20px 0 0px 0;}
+
+
+ #slider {
+	 
+	 position:relative;
+	 margin:0 auto;
+	 width:400px;
+	 height:200px;
+	 font: 19px sans-serif;
+	 overflow:hidden;
+	 border-radius:20px
+	 
+	 
+ }
+ 
+ #kontrol
+{	 
+	 position:absolute;
+	 margin:-31px 0px 0px 0;	 
+ }
+ 
+ #kontrol a 
+{ 
+	 color:white;
+	 background: rgba(0,0,0,0.5);
+	 padding:10px;
+	 text-decoration:none;	 
+ }
+
+
+
+
+
+
+

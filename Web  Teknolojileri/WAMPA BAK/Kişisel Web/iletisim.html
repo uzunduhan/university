@@ -1,0 +1,105 @@
+﻿<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/stil.css"/>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/javascript.js"></script>
+<title>İletişim</title>	
+</head>
+<body background="Gorseller/site-background.jpg">
+	
+<div class="container" id="menu">
+  <ul class="nav">
+    <li class="nav-item" id="anasayfa">
+      <a class="nav-link" href="index.html">Hakkında</a>
+    </li>
+    <li class="nav-item" id="sehrim">
+      <a class="nav-link" href="sehrim.html" >Şehrim</a>
+    </li>
+    <li class="nav-item" id="mirasimiz">
+      <a class="nav-link" href="mirasimiz.html">Mirasımız</a>
+    </li>
+    <li class="nav-item" id="cv">
+      <a class="nav-link" href="cv.html" >Cv</a>
+    </li>
+	  <li class="nav-item" id="iletisim">
+      <a class="nav-link" href="iletisim.html" >İletişim</a>
+    </li>
+ </ul>
+</div>
+	
+<form action="kaydet.php" method="post">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+		 <br>AD:<br>
+		<input type="text" name="AD" id="ad"><br><br>
+</div>
+
+<div class="container">
+	SOYAD:<br>
+	<input type="text" name="SOYAD" id="soyad"><br><br>
+</div>
+
+<div class="container">
+	E-MAIL:<br>
+	<input type="text" name="E-MAIL" id="email"><br><br>
+</div>
+
+<div class="container">
+	ADRES:<br>
+	<textarea rows="8" cols="80" name="ADRES" id="adres"></textarea><br><br>
+</div>
+
+<div class="container">
+	YAŞADIĞINIZ İL:<br>
+	<input type="text" name="IL" id="il"><br><br>
+</div>
+
+<div class="container">
+	CİNSİYETİNİZ:<br>
+	<input type="radio" name="CINSIYET" id="cinsiyet" value="Erkek">Erkek<br>
+	<input type="radio" name="CINSIYET" id="cinsiyet" value="Kadin">Kadın<br>
+	<input type="radio" name="CINSIYET" id="cinsiyet" value="Belirtilmedi">Belirtmek istemiyorum<br><br>
+</div>
+
+<div class="container">
+	ÖĞRENİM DURUMUNUZ:<br>
+	<select name="EGITIM" id="ogrenim">
+	  <option value="">Öğrenim Durumu Seçiniz</option>
+	  <option value="Ilkokul">İlkokul</option>
+	  <option value="Ortaokul">Ortaokul</option>
+	  <option value="Lise">Lise</option>
+	  <option value="Lisans">Lisans</option>
+	  <option value="Yüksek lisans">Yüksek Lisans</option>
+	  <option value="Doktora">Doktora</option>
+	</select><br><br>
+</div>
+
+<div class="container">
+	<input type="checkbox" name="KOSUL" value="Onaylandı">Katılım koşullarını kabul ediyorum.<br><br>
+</div>
+
+<div class="container">	
+	<input type="submit" value="Gönder" onClick="return kontrol();">
+	<input type="reset" value="Temizle">
+	
+	  </div>
+	</div>
+	
+</div>
+</form>
+<br><br>
+
+	
+	
+	
+	
+
+</body>
+</html>

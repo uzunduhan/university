@@ -1,0 +1,9 @@
+random sayı üretme
+https://stackoverflow.com/questions/13442611/how-can-i-generate-a-random-number-without-use-of-math-random
+
+tc kimlik algoritması
+https://seyler.eksisozluk.com/tc-kimlik-numaralarindaki-inanilmaz-algoritma
+
+imei numarası algoritması
+https://www.excel.web.tr/threads/luhn-algoritmasi-ile-imei-kontrolue.84448/
+https://www.geeksforgeeks.org/program-check-valid-imei-number/
