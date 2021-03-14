@@ -1,1 +1,1 @@
-Burada, Üniversitede yaptığım ödevler ve projeler yer almaktadır
+Burada, Üniversite dönemimde yaptığım ödevler ve projeler yer almaktadır
