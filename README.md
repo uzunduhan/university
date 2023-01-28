@@ -1,1 +1,1 @@
-Burada, Üniversite dönemimde yaptığım ödevler ve projeler yer almaktadır
+Here are the assignments and projects i did during my university years
